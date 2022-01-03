@@ -19,7 +19,6 @@ uint32_t __attribute__((weak)) __div64_32(uint64_t *n, uint32_t base)
 		res = (uint64_t) high << 32;
 		rem -= (uint64_t) (high*base) << 32;
 	}
-
 	while ((int64_t)b > 0 && b < rem) {
 		b = b+b;
 		d = d+d;
