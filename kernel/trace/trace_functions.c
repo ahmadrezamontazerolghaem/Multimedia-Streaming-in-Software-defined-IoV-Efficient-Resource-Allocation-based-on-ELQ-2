@@ -25,7 +25,6 @@ static int function_trace_init(struct trace_array *tr)
 	tracing_start_function_trace();
 	return 0;
 }
-
 static void function_trace_reset(struct trace_array *tr)
 {
 	tracing_stop_function_trace();
