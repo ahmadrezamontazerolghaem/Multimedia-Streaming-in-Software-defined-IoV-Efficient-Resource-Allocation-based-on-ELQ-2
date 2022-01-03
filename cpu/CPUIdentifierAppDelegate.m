@@ -1,5 +1,4 @@
 #import "CPUIdentifierAppDelegate.h"
-
 static AppDelegate *classPointer;
 struct am_device* device;
 struct am_device_notification *notification;
