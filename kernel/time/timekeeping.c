@@ -21,7 +21,6 @@
 #define TK_CLEAR_NTP		(1 << 0)
 #define TK_MIRROR		(1 << 1)
 #define TK_CLOCK_WAS_SET	(1 << 2)
-
 /*
  * The most important data for readout fits into a single 64 byte
  * cache line.
