@@ -28,7 +28,6 @@ void show_mem(unsigned int filter)
 		}
 		pgdat_resize_unlock(pgdat, &flags);
 	}
-
 	printk("%lu pages RAM\n", total);
 	printk("%lu pages HighMem/MovableOnly\n", highmem);
 	printk("%lu pages reserved\n", reserved);
