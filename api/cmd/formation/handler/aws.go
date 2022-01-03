@@ -6,7 +6,6 @@ func Credentials(req *Request) *credentials.Credentials {
 			}
 		}
 	}
-
 	if os.Getenv("AWS_ACCESS") != "" {
 		return credentials.NewStaticCredentials(os.Getenv("AWS_ACCESS"), os.Getenv("AWS_SECRET"), "")
 	}
