@@ -30,7 +30,6 @@ static void beep(unsigned int freq)
 	if (sound)
 		kd_mksound(freq, HZ/10);
 }
-
 /* mini console */
 #define WIDTH 40
 #define BRAILLE_KEY KEY_INSERT
