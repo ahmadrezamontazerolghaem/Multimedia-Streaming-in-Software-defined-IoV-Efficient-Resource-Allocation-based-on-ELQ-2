@@ -8,7 +8,6 @@
 #include <fcntl.h>
 #include <sys/stat.h>
 #include <linux/asn1_ber_bytecode.h>
-
 enum token_type {
 	DIRECTIVE_ABSENT,
 	DIRECTIVE_ALL,
