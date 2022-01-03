@@ -5,7 +5,6 @@ import (
 	"strconv"
 	"strings"
 
-
 	"github.com/convox/rack/Godeps/_workspace/src/github.com/aws/aws-sdk-go/aws"
 	"github.com/convox/rack/Godeps/_workspace/src/github.com/aws/aws-sdk-go/service/ec2"
 )
