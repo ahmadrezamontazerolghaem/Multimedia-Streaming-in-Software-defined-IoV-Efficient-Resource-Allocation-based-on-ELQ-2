@@ -23,7 +23,6 @@ static void ahci_mvebu_mbus_config(struct ahci_host_priv *hpriv,
 		writel(0, hpriv->mmio + AHCI_WINDOW_BASE(i));
 		writel(0, hpriv->mmio + AHCI_WINDOW_SIZE(i));
 	}
-
 	for (i = 0; i < dram->num_cs; i++) {
 		const struct mbus_dram_window *cs = dram->cs + i;
 
