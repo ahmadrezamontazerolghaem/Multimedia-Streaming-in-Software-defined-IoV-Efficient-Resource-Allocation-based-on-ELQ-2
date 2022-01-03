@@ -21,7 +21,6 @@ const struct lpddr2_min_tck *of_get_min_tck(struct device_node *np,
 {
 	int			ret = 0;
 	struct lpddr2_min_tck	*min;
-
 	min = devm_kzalloc(dev, sizeof(*min), GFP_KERNEL);
 	if (!min)
 		goto default_min_tck;
