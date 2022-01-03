@@ -19,7 +19,6 @@ typedef void (*print_fn_t)(struct seq_file *m, unsigned int *classes);
 
 DECLARE_PER_CPU(struct hrtimer_cpu_base, hrtimer_bases);
 
-/*
  * This allows printing both to /proc/timer_list and
  * to the console (on SysRq-Q):
  */
