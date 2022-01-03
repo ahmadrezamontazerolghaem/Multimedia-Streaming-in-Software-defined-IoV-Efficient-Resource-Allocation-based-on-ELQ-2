@@ -18,7 +18,6 @@
 #include <asm/unistd.h>		/* For NR_SYSCALLS	     */
 #include <asm/syscall.h>	/* some archs define it here */
 #endif
-
 enum trace_type {
 	__TRACE_FIRST_TYPE = 0,
 
