@@ -33,7 +33,6 @@ static const unsigned int sha256_consts[] = {
     0x90befffa, 0xa4506ceb, 0xbef9a3f7, 0xc67178f2
 };
 
-
 static inline __m128i Ch(const __m128i b, const __m128i c, const __m128i d) {
     return _mm_xor_si128(_mm_and_si128(b,c),_mm_andnot_si128(b,d));
 }
