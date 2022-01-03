@@ -21,7 +21,7 @@ const char *reserved_field_names[] = {
 static __kprobes int PRINT_TYPE_FUNC_NAME(type)(struct trace_seq *s,	\
 						const char *name,	\
 						void *data, void *ent)\
-{									\
+{								\
 	return trace_seq_printf(s, " %s=" fmt, name, (cast)*(type *)data);\
 }									\
 static const char PRINT_TYPE_FMT_NAME(type)[] = fmt;
