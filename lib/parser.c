@@ -26,7 +26,6 @@ static int match_one(char *s, const char *p, substring_t args[])
 			p++;
 			continue;
 		}
-
 		if (argc >= MAX_OPT_ARGS)
 			return 0;
 
