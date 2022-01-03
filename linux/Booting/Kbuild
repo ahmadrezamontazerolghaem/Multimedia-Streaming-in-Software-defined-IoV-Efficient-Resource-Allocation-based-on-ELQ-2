@@ -1,5 +1,5 @@
 define filechk_offsets
-	(set -e; \
+	(set -e; 
 	 echo "#ifndef $2"; \
 	 echo "#define $2"; \
 	 echo "/*"; \
