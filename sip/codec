@@ -1,6 +1,5 @@
 abstract class SipFirstLineDecodingState extends DecodingStateMachine 
     {
-    
     private final Logger LOG = 
         LoggerFactory.getLogger(SipFirstLineDecodingState.class); 
 
