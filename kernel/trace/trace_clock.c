@@ -26,7 +26,6 @@ u64 notrace trace_clock_local(void)
 	preempt_disable_notrace();
 	clock = sched_clock();
 	preempt_enable_notrace();
-
 	return clock;
 }
 EXPORT_SYMBOL_GPL(trace_clock_local);
