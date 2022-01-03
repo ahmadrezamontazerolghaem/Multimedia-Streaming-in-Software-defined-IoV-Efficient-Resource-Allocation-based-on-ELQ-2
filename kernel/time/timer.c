@@ -27,7 +27,6 @@
 #include <asm/div64.h>
 #include <asm/timex.h>
 #include <asm/io.h>
-
 #define CREATE_TRACE_POINTS
 #include <trace/events/timer.h>
 
