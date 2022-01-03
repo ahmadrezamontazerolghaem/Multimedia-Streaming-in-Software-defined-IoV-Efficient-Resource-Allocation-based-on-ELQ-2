@@ -19,7 +19,7 @@ ARC_ENTRY memcpy
 	st.ab	r12,[r5,4]
 	ld.a	r12,[r1,8]
 	st.ab	r3,[r5,4]
-.Lendloop:
+.Lendloop
 	breq	r2,0,.Last_store
 	ld	r3,[r5,0]
 #ifdef __LITTLE_ENDIAN__
