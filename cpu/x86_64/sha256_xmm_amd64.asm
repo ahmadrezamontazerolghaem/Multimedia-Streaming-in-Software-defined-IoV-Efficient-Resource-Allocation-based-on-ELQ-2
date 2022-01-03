@@ -3,7 +3,6 @@ BITS 64
 %define hash rdi
 %define data rsi
 %define init rdx
-
 extern g_4sha256_k
 
 global CalcSha256_x64	
