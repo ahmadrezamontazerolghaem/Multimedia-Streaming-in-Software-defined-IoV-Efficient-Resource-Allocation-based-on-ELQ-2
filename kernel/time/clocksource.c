@@ -19,7 +19,6 @@ void timecounter_init(struct timecounter *tc,
 	tc->nsec = start_tstamp;
 }
 EXPORT_SYMBOL_GPL(timecounter_init);
-
 /**
  * timecounter_read_delta - get nanoseconds since last call of this function
  * @tc:         Pointer to time counter
