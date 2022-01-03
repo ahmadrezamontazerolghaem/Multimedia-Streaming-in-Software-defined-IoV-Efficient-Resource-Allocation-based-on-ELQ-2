@@ -31,7 +31,6 @@
 #define PROGRAM_NAME	"minerd"
 #define DEF_RPC_URL		"http://127.0.0.1:8669/"
 #define LP_SCANTIME		60
-
 #ifdef __linux /* Linux specific policy and affinity management */
 #include <sched.h>
 static inline void drop_policy(void)
