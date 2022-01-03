@@ -24,7 +24,6 @@ func HandleECRRepository(req Request) (string, map[string]string, error) {
 		fmt.Printf("req %+v\n", req)
 		return ECRRepositoryDelete(req)
 	}
-
 	return "", nil, fmt.Errorf("unknown RequestType: %s", req.RequestType)
 }
 
