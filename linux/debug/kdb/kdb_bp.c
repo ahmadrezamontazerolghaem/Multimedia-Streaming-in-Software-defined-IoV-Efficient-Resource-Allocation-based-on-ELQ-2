@@ -25,7 +25,6 @@ static char *kdb_rwtypes[] = {
 	"I/O",
 	"Data Access"
 };
-
 static char *kdb_bptype(kdb_bp_t *bp)
 {
 	if (bp->bp_type < 0 || bp->bp_type > 4)
