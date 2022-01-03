@@ -21,7 +21,6 @@ func init() {
 		})
 	}
 }
-
 func Error(log *logger.Logger, err error) {
 	if log != nil {
 		log.Error(err)
