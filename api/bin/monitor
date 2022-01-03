@@ -1,5 +1,4 @@
 #!/bin/sh
-
 # cd to the api root
 cd $(dirname ${0:-})/..
 
