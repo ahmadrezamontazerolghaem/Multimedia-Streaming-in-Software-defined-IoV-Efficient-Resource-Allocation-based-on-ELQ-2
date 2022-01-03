@@ -20,7 +20,6 @@ type Record struct {
 	Sns                  Sns
 }
 
-
 type Sns struct {
 	Type             string
 	MessageId        string
