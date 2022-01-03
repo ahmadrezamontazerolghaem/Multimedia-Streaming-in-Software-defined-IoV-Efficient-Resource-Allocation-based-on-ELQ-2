@@ -1,5 +1,4 @@
 #!/bin/sh
-
 in=$(mktemp -t lambda.in)
 out=$(mktemp -t lambda.out)
 
