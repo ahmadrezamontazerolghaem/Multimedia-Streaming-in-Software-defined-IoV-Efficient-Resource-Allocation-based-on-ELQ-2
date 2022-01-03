@@ -1,7 +1,6 @@
 nl='
 '
 IFS=" ""	$nl"
-
 # set DOITPROG to echo to test this script
 
 # Don't use :- since 4.3BSD and earlier shells don't like it.
