@@ -1,5 +1,4 @@
 #include "cpuminer-config.h"
-
 #include "miner.h"
 
 #ifdef WANT_X8664_SSE2
