@@ -63,7 +63,7 @@
 #endif
 #ifndef SET_FPEMU_CTL
 # define SET_FPEMU_CTL(a, b)	(-EINVAL)
-#endif
+#endif  
 #ifndef GET_FPEMU_CTL
 # define GET_FPEMU_CTL(a, b)	(-EINVAL)
 #endif
