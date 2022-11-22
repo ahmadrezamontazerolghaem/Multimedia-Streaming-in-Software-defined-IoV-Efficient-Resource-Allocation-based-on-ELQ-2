@@ -1,6 +1,5 @@
 package manifest
- 
-import (
+ import (
 	"bytes"
 	"compress/gzip"
 	"fmt"
