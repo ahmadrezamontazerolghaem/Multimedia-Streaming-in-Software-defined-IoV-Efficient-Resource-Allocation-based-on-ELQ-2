@@ -1,6 +1,5 @@
 #ifndef _SOCKET_H
 #define _SOCKET_H
-
 #include "agent.h"
 #include "address.h"
 #include <gio/gio.h>
