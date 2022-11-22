@@ -94,7 +94,7 @@ $arrLangModule=array(
 "SUCCESSFUL" => "Successful Process",
 "Unabled write file" => "Unabled write file",
 "Unabled open file" => "Unabled open file",
-"EOP" => "EOP",
+"EOP" => "EOP", 
 "programs" => "Programs",
 "Warning" => "<b><font size='2' color='red'>WARNING:</font></b> Versions to restore are different. You could have any problem with the behavior of the programs after restoring. Press process to accept or cancel if not.",
 "local_version" => "Current",
