@@ -5,7 +5,6 @@ import (
   "io"
   "fmt"
 )
-
 // SIP request parsing errors.
 type ProtocolError struct {
 	ErrorString string 
