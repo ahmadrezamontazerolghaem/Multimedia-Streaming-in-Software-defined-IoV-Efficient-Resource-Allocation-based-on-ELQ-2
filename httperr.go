@@ -1,6 +1,5 @@
 package httperr
- 
-import (
+ import (
 	"fmt"
 	"runtime" 
 	"strings"
