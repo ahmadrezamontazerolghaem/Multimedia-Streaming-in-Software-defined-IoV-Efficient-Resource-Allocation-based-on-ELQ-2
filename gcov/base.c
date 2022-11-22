@@ -16,7 +16,6 @@ static DEFINE_MUTEX(gcov_lock);
 void __gcov_init(struct gcov_info *info)
 {
 	static unsigned int gcov_version;
-
 	mutex_lock(&gcov_lock);
 	if (gcov_version == 0) {
 		gcov_version = gcov_info_version(info);
