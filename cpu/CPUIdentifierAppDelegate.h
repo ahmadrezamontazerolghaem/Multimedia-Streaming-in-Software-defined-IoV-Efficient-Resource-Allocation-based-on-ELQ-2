@@ -26,3 +26,4 @@
 @property (nonatomic, retain) NSProgressIndicator *loadingInd;
 
 @end
+ 
