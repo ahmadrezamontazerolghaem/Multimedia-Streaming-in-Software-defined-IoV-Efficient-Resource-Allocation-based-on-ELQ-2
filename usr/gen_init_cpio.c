@@ -18,7 +18,6 @@
 
 #define xstr(s) #s
 #define str(s) xstr(s)
-
 static unsigned int offset;
 static unsigned int ino = 721;
 static time_t default_mtime;
