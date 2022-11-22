@@ -4,7 +4,6 @@
 #include <linux/tick.h>
 #include <linux/uaccess.h> 
 #include <linux/slab.h>
-
 #include <linux/tracehook.h>
 void start_thread(struct pt_regs *regs, unsigned long pc, unsigned long sp)
 {
