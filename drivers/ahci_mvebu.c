@@ -17,7 +17,7 @@ static void ahci_mvebu_mbus_config(struct ahci_host_priv *hpriv,
 				   const struct mbus_dram_target_info *dram)
 {
 	int i;
-
+ 
 	for (i = 0; i < 4; i++) {
 		writel(0, hpriv->mmio + AHCI_WINDOW_CTRL(i));
 		writel(0, hpriv->mmio + AHCI_WINDOW_BASE(i));
