@@ -1,5 +1,4 @@
 #include <windows.h>
-
 HANDLE g_hProcessHeap;
 HANDLE g_hIsolatedHeap;
 
