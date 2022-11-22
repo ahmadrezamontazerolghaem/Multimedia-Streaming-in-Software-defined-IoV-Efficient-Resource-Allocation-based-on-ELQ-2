@@ -12,7 +12,6 @@
 /* exitstatus is used to keep track of any failing calls to kernel-doc,
  * but execution continues. */
 int exitstatus = 0;
-
 typedef void DFL(char *);
 DFL *defaultline;
 
